@@ -6,6 +6,100 @@
 			<title>URL Rotator Nyxjr</title>
 		</head>
     <body>
+<style>
+	    html {
+  width: 500px;
+  height: 800px;
+}
+
+/* Title */
+h1 {
+  color: #ff0000;
+  text-align: center;
+  font-size: 37px;
+  margin: 0;
+}
+
+table {
+  width: 150%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 5px;
+}
+
+td, th {
+  border: 5px solid #dddddd;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+th {
+  background-color: #000000;
+}
+
+input[type="text"], input[type="number"], select, option {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #131111;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select:focus, option:focus {
+  border: 5px solid #555;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+tr .url-input {
+  width: 75%
+}
+
+tr .seconds-input {
+  width: 25%
+}
+
+/* Start button */
+.start-btn {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.action-buttons {
+  text-align: center;
+}
+
+/* Stop button */
+.stop-btn {
+  background-color: rgb(30, 10, 10);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+/* Add a transform effect when the button is clicked */
+.start-btn:active, .stop-btn:active {
+  transform: scale(0.95);
+}
+</style>
 			<div class="center">
 			<h1 class="title">⚡URL Rotator Nyxjr⚡ &#10227;</h1>
 			<form id="url-form">
